@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Conditions</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #00004E;
+  padding: 30px;
+  text-align: center;
+   height: 30%;
+   font-family: Times New Roman;
+  font-size: 300%;
+  color: white;
+}
+nav {
+  float: left;
+  width: 40%;
+  height: 60%;
+  background: #8ED5FA;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: Times New Roman;
+  
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  background-color: #f1f1f1;
+    height: 100%;
+}
+section{
+height: 60%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 60%;
+}
+
+p{
+  float: inline-start;
+  font-family: Times New Roman;
+  text-align: justify;
+  cursor: crosshair;
+  text-indent: 20px;
+  word-spacing: 2px;
+  font-size: 150%;
+  }
+footer {
+  background-color: #1C78C0;
+  padding: 10px;
+  margin-bottom:10px;
+  text-align: center;
+  height: 10%;
+  color: white;
+footer P {  
+  text-align: center;
+   height: 10%;
+  color: white;
+  }
+@media (max-width: 100%) {
+  nav, article {
+    width: 100%;
+    height: 60%;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Conditions</h2>
+</header>
+
+<section>
+  <nav>
+   <h1 style="font-size: 150%;font-family: Times New Roman;"><b><u>House</u></b></h1>
+ <p> To have more freedom in your choice, before renting your apartment check if it has <b>Fiber Optic Port (hikari)</b>. If it doesn't have this Port, your choice of connection becomes very limited and more expensive. </p>
+  <img src="img2/opticPort.jpg" style="height:210px;display: block; margin-left: auto; margin-right: auto;">
+  </nav>
+  <article>
+  <ul>
+      <li style="font-size: 150%;font-family: Times New Roman;"><b><u>Bank account</u></b></li>
+      <p> Having a bank account or a credit card is essential to sign an internet contract in Japan because invoices are paid by <b>direct debit</b> from your bank account. And besides, this is the first question that the agent will ask you before starting any action.</p>
+      <li style="font-size: 150%;font-family: Times New Roman;"><b><u>Residence card</u></b></li>
+	  <p> Having a residence card valid for more than 4 months (for some companies more than 6 months) is <b>essential</b> even if you have a student card valid for 2 years. The company will ask you to renew your residence card. Then, you can start the process of signing the internet contract. So, if your residence card is valid for <b>less than 6 months</b>, it's better to <b><i>renew</i></b> it before starting the procedure.</p>
+    </ul>
+
+ </article>
+</section>
+
+<footer>
+  <p style="text-align: center;">@2022 Leadership project</p>
+</footer>
+
+</body>
+</html>
